@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "price": 180,
+    "description": "Rich and bold espresso shot.",
+    "img": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXNwcmVzc298ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "price": 250,
+    "description": "Smooth blend of espresso, steamed milk, and foam.",
+    "img": "https://plus.unsplash.com/premium_photo-1674327105280-b86494dfc690?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "name": "Latte",
+    "price": 240,
+    "description": "Creamy latte with steamed milk and espresso.",
+    "img": "https://images.unsplash.com/photo-1559001724-fbad036dbc9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TGF0dGV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 4,
+    "name": "Mocha",
+    "price": 280,
+    "description": "Chocolate-flavored coffee with espresso and milk.",
+    "img": "https://athome.starbucks.com/sites/default/files/styles/recipe_banner_xlarge/public/2024-05/CaffeMocha_RecipeHeader_848x539_%402x.jpg.webp?itok=ov3gQo8W"
+  },
+  {
+    "id": 5,
+    "name": "Americano",
+    "price": 150,
+    "description": "Smooth espresso diluted with hot water.",
+    "img": "https://images.unsplash.com/photo-1580661869408-55ab23f2ca6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QW1lcmljYW5vfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 6,
+    "name": "Macchiato",
+    "price": 220,
+    "description": "Espresso topped with a small amount of milk foam.",
+    "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWFjY2hpYXRvfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 7,
+    "name": "Flat White",
+    "price": 260,
+    "description": "Velvety steamed milk poured over espresso.",
+    "img": "https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmxhdCUyMHdoaXRlJTIwY29mZmVlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 8,
+    "name": "Affogato",
+    "price": 320,
+    "description": "Espresso poured over vanilla ice cream.",
+    "img": "https://images.unsplash.com/photo-1696522692156-7340b681c3bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZmb2dhdG98ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 9,
+    "name": "Iced Coffee",
+    "price": 180,
+    "description": "Chilled brewed coffee served over ice.",
+    "img": "https://images.unsplash.com/photo-1549652127-2e5e59e86a7a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "name": "Iced Latte",
+    "price": 260,
+    "description": "Cold milk mixed with chilled espresso.",
+    "img": "https://images.unsplash.com/photo-1671759545218-831c32bfe92d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SWNlZCUyMExhdHRlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 11,
+    "name": "Cold Brew",
+    "price": 300,
+    "description": "Slow-steeped cold brew coffee with smooth flavor.",
+    "img": "https://images.unsplash.com/photo-1549652127-2e5e59e86a7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sZCUyMGJyZXclMjBjb2ZmZWV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 12,
+    "name": "Caramel Latte",
+    "price": 290,
+    "description": "Latte sweetened with caramel syrup.",
+    "img": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FyYW1lbCUyMExhdHRlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 13,
+    "name": "Vanilla Latte",
+    "price": 290,
+    "description": "Creamy latte with vanilla flavor.",
+    "img": "https://plus.unsplash.com/premium_photo-1664647903742-52e5f954c28a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VmFuaWxsYSUyMExhdHRlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 14,
+    "name": "Pumpkin Spice Latte",
+    "price": 320,
+    "description": "Espresso with steamed milk and pumpkin spice.",
+    "img": "https://images.unsplash.com/photo-1569383893830-b73dc4a03af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHVtcGtpbiUyMFNwaWNlJTIwTGF0dGV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 15,
+    "name": "Irish Coffee",
+    "price": 380,
+    "description": "Coffee with Irish cream and a hint of whiskey flavor.",
+    "img": "https://images.unsplash.com/photo-1651789535050-2e2b4d9b6703?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SXJpc2glMjBDb2ZmZWV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 16,
+    "name": "Turkish Coffee",
+    "price": 200,
+    "description": "Strong finely ground coffee boiled in a pot.",
+    "img": "https://plus.unsplash.com/premium_photo-1732818133657-f118e2b7c11f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VHVya2lzaCUyMENvZmZlZXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 17,
+    "name": "Ristretto",
+    "price": 190,
+    "description": "A shorter, more concentrated espresso shot.",
+    "img": "https://images.unsplash.com/photo-1680079526564-26c37196c847?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UmlzdHJldHRvfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 18,
+    "name": "Cortado",
+    "price": 230,
+    "description": "Equal parts espresso and warm milk.",
+    "img": "https://images.unsplash.com/photo-1646908873086-881be59630cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q29ydGFkb3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 19,
+    "name": "Doppio",
+    "price": 220,
+    "description": "A double shot of strong espresso.",
+    "img": "https://images.unsplash.com/photo-1621884945355-b33055ea57ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RG9wcGlvJTIwY29mZmVlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 20,
+    "name": "Matcha Latte",
+    "price": 350,
+    "description": "Green tea matcha blended with steamed milk.",
+    "img": "https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWF0Y2hhJTIwTGF0dGV8ZW58MHx8MHx8fDA%3D"
+  }
+]

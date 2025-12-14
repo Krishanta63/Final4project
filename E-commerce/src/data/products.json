@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Casual Shirt",
+    "price": 1499,
+    "oldPrice": 1899,
+    "category": "Men",
+    "rating": 4.5,
+    "stock": 12,
+    "image": "/images/products/shirt1.jpg",
+    "description": "High-quality cotton casual shirt perfect for everyday wear."
+  },
+  {
+    "id": 2,
+    "name": "Women's Stylish Handbag",
+    "price": 2499,
+    "oldPrice": 2999,
+    "category": "Women",
+    "rating": 4.7,
+    "stock": 5,
+    "image": "/images/products/bag1.jpg",
+    "description": "Premium leather handbag with multiple compartments."
+  },
+  {
+    "id": 3,
+    "name": "Wireless Earbuds Pro",
+    "price": 3999,
+    "oldPrice": 4999,
+    "category": "Electronics",
+    "rating": 4.3,
+    "stock": 20,
+    "image": "/images/products/earbuds1.jpg",
+    "description": "Noise-cancelling wireless earbuds with 24-hour battery life."
+  }
+]
