@@ -9,7 +9,7 @@ import Contact from './Contact'
 const Home = () => {
   return (
     <>
-    <section className="home bg-amber-950 shadow-md text-white h-[90vh] flex items-center">
+    <section className="home bg-[#4B2E2A] shadow-md text-white h-[90vh] flex items-center">
         <div className="container mx-auto flex justify-between items-center py-20   px-10">
            <div className="left gap-4 flex flex-col">
             <h1 className="text-5xl font-bold text-amber-300">Best Coffee</h1>

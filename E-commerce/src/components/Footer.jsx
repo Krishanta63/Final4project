@@ -5,7 +5,7 @@ const Footer = () => {
    <>
     <section className='bg-black text-white py-4'>
         <div className="container mx-auto items-center text-center">
-            &copy; 2024 E-Shop. All rights reserved.
+            &copy; 2024 Click&Cart. All rights reserved.
         </div>
     </section>
    </>

@@ -6,13 +6,14 @@ import Menu from '../pages/Menu'
 import Gallery from '../pages/Gallery'
 import Contact from '../pages/Contact'
 import Testimonials from '../pages/Testimonials'
+import DetailsPages from '../pages/DetailsPages'
 
 const Header = () => {
   return (
     <div>
-        <section className="header bg-amber-950  shadow-md text-white">
+        <section className="header bg-[#4B2E2A] shadow-md text-white">
             <div className="container mx-auto flex justify-between items-center py-4">
-                <h1 className="text-3xl font-bold">Logo</h1>
+                <h1 className="text-3xl font-bold">Baga<span className='text-yellow-500'>icha</span></h1>
                 <ul className='flex gap-5'>
                     <Link to="/"><li>Home</li></Link>
                     <Link to="/about"><li>About</li></Link>
@@ -31,6 +32,7 @@ const Header = () => {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/menu/:id" element={<DetailsPages />} />
         </Routes>
     </div>
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [coffee, setCoffee] = useState([]);
@@ -19,15 +20,17 @@ const Menu = () => {
         </div>
       <div className="grid grid-cols-3 gap-6 py-10 container mx-auto">
           {coffee.map((a) => (
-            <div key={a.id} className="p-4 rounded shadow">
-              <img
-                src={a.img}
-                alt={a.name}
-                className="w-full h-60 object-cover mb-4"
-              />
-              <h2 className="text-xl font-semibold mb-2">{a.name}</h2>
-              <p className="mb-2">{a.description}</p>
-              <p className="font-bold">Price: ${a.price}</p>
+            <div key={a.id} className="p-4 rounded shadow" >
+              <Link to={`/menu/${a.id}`}>
+                <img
+                  src={a.img}
+                  alt={a.name}
+                  className="w-full h-60 object-cover mb-4"
+                />
+                <h2 className="text-xl font-semibold mb-2">{a.name}</h2>
+                <p className="mb-2">{a.description}</p>
+                <p className="font-bold">Price: ${a.price}</p>
+              </Link>
             </div>
           ))}
         </div>

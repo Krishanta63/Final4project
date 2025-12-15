@@ -4,6 +4,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Categories from '../pages/Categories';
 import ProductDetails from '../pages/ProductDetails';
 import { useCart } from '../context/CartContext';
+import Cart from '../pages/cart';
 
 const Header = () => {
   const [category, setCategory] = useState([]);
@@ -22,7 +23,8 @@ const Header = () => {
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <div className="logo text-2xl font-bold">
-                <Link to="/">E-Shop</Link>
+                <Link to="/">Click
+                <span className='text-red-600'>&Cart</span></Link>
             </div>
 
             <div className="nav space-x-6">
@@ -43,7 +45,9 @@ const Header = () => {
 
             <div className="cart">
               <button className="bg-white text-cyan-900 px-4 py-2 rounded hover:bg-gray-200">
-                Cart ({cartItem.length})
+                <Link to="/cart">
+                  Cart ({cartItem.length})
+                </Link>
               </button>
             </div>
           </div>
@@ -53,6 +57,7 @@ const Header = () => {
         <Route path="/" element={<Home />} />
         <Route path="/category/:category" element={<Categories />} />
         <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} /> 
       </Routes>
     </>
   );
